@@ -1,0 +1,504 @@
+[ 2018-03-03T19:48:34+08:00 ] 71.6.158.166 
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000907s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+NOTIC: [8] Undefined index: router /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1988 行.
+NOTIC: [8] Undefined index: router /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1988 行.
+NOTIC: [8] Undefined index: router /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1988 行.
+NOTIC: [8] Undefined index: router /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1988 行.
+NOTIC: [8] Undefined index: router /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1988 行.
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+SQL: SHOW COLUMNS FROM `tb_config` [ RunTime:0.000582s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009892s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Session/Driver/Db.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `tb_module` [ RunTime:0.000397s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000123s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000078s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_HOME_HOME_INDEX_TYPE' LIMIT 1   [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: HTTP_USER_AGENT /wwwroot/admin.snake.com/Application/Common/Common/function.php 第 1781 行.
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_HOME_BLOCK' LIMIT 1   [ RunTime:0.000137s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_HOME_ENTER_URL' LIMIT 1   [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ syncMeta ] --START--
+SQL: SHOW COLUMNS FROM `tb_addons` [ RunTime:0.000372s ]
+SQL: SELECT `config` FROM `tb_addons` WHERE `name` = 'SyncLogin' AND `status` = 1 LIMIT 1   [ RunTime:0.000050s ]
+INFO: Run Addons\SyncLogin\SyncLoginAddon [ RunTime:0.001248s ]
+INFO: [ syncMeta ] --END-- [ RunTime:0.001281s ]
+NOTIC: [8] Undefined variable: seo /wwwroot/admin.snake.com/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tb_seo_rule` [ RunTime:0.000359s ]
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /wwwroot/admin.snake.com/Application/Common/Model/SeoRuleModel.class.php 第 78 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /wwwroot/admin.snake.com/Application/Common/Model/SeoRuleModel.class.php 第 79 行.
+NOTIC: [8192] mysql_escape_string(): This function is deprecated; use mysql_real_escape_string() instead. /wwwroot/admin.snake.com/Application/Common/Model/SeoRuleModel.class.php 第 80 行.
+SQL: SELECT * FROM `tb_seo_rule` WHERE ( (app='' or app='Home') and (controller='' or controller='Index') and (action='' or action='index') and status=1 ) ORDER BY sort asc  [ RunTime:0.000067s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_CONFIG_WEB_SITE_NAME' LIMIT 1   [ RunTime:0.000125s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000095s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_CONFIG_GET_INFORMATION' LIMIT 1   [ RunTime:0.000123s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_CONFIG_GET_INFORMATION_INTERNAL' LIMIT 1   [ RunTime:0.000110s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_CONFIG_WEBSOCKET_ADDRESS' LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_CONFIG_WEBSOCKET_PORT' LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_COMMENT_ORDER' LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `tb_pushing` [ RunTime:0.000263s ]
+ERR: 1146:Table 'open_snake.tb_pushing' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tb_pushing`
+NOTIC: [2] fsockopen(): unable to connect to 123.59.26.184:8000 (Connection refused) /wwwroot/admin.snake.com/ThinkPHP/Library/Vendor/socketio/WebSocketClient.php 第 81 行.
+NOTIC: [2] socket_set_timeout() expects parameter 1 to be resource, boolean given /wwwroot/admin.snake.com/ThinkPHP/Library/Vendor/socketio/WebSocketClient.php 第 82 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given /wwwroot/admin.snake.com/ThinkPHP/Library/Vendor/socketio/WebSocketClient.php 第 84 行.
+NOTIC: [2] fread() expects parameter 1 to be resource, boolean given /wwwroot/admin.snake.com/ThinkPHP/Library/Vendor/socketio/WebSocketClient.php 第 89 行.
+NOTIC: [8] Undefined index: HTTP_HOST /wwwroot/admin.snake.com/ThinkPHP/Common/functions.php 第 950 行.
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_NUM' LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.000536s ]
+NOTIC: [8] Undefined offset: 1 /wwwroot/admin.snake.com/Application/Common/Model/MemberModel.class.php 第 266 行.
+SQL: SHOW COLUMNS FROM `tb_user_token` [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tb_user_token` WHERE `uid` = null LIMIT 1   [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `tb_channel` [ RunTime:0.000366s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`sort`,`create_time`,`update_time`,`status`,`target`,`color`,`band_color`,`band_text`,`icon`,`image`,`remark` FROM `tb_channel` WHERE `status` = 1 ORDER BY sort  [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: _ /wwwroot/admin.snake.com/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 151 行.
+NOTIC: [8] Undefined index: _ /wwwroot/admin.snake.com/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 151 行.
+NOTIC: [8] Undefined index: _ /wwwroot/admin.snake.com/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 151 行.
+NOTIC: [8] Undefined index: _ /wwwroot/admin.snake.com/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 151 行.
+NOTIC: [8] Undefined index: _ /wwwroot/admin.snake.com/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 151 行.
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_USERCONFIG_OPEN_QUICK_LOGIN' LIMIT 1   [ RunTime:0.000133s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_INVITE_REGISTER_TYPE' LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `tb_auth_rule` [ RunTime:0.000290s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Core/Admin/View' AND `status` = 1 LIMIT 1   [ RunTime:0.000050s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000006s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.038395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025816s ]
+NOTIC: [8] Undefined index: children /wwwroot/admin.snake.com/Runtime/Cache/Home/7ac86ee1d16e058d630e77679d9f3d59.php 第 15 行.
+NOTIC: [8] Undefined index: li_class /wwwroot/admin.snake.com/Runtime/Cache/Home/7ac86ee1d16e058d630e77679d9f3d59.php 第 31 行.
+NOTIC: [8] Undefined index: a_class /wwwroot/admin.snake.com/Runtime/Cache/Home/7ac86ee1d16e058d630e77679d9f3d59.php 第 32 行.
+NOTIC: [8] Undefined index: icon /wwwroot/admin.snake.com/Runtime/Cache/Home/7ac86ee1d16e058d630e77679d9f3d59.php 第 33 行.
+NOTIC: [8] Undefined index: right /wwwroot/admin.snake.com/Runtime/Cache/Home/7ac86ee1d16e058d630e77679d9f3d59.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000006s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.048696s ]
+SQL: SHOW COLUMNS FROM `tb_adv_pos` [ RunTime:0.000370s ]
+SQL: SELECT * FROM `tb_adv_pos` WHERE `name` = 'slider' AND `path` = 'Home/Index/index' AND `status` = 1 LIMIT 1   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `tb_adv` [ RunTime:0.000424s ]
+SQL: SELECT * FROM `tb_adv` WHERE `pos_id` = 9 AND `status` = 1 AND `start_time` < 1520077713 AND `end_time` > 1520077713 ORDER BY sort asc  [ RunTime:0.000195s ]
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Common/Model/AdvModel.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.032088s ]
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Admin/Adv/adv' AND `status` = 1 LIMIT 1   [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001528s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004981s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000005s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.053524s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_COUNT1' LIMIT 1   [ RunTime:0.000124s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_ORDER_FIELD1' LIMIT 1   [ RunTime:0.000127s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_ORDER_TYPE1' LIMIT 1   [ RunTime:0.000122s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_CACHE_TIME1' LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `tb_weibo` [ RunTime:0.000535s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 ORDER BY create_time desc LIMIT 5   [ RunTime:0.000058s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `id` = 3 LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `create_time` < '1519704289' AND `uid` = 1 LIMIT 1   [ RunTime:0.000051s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_BR' LIMIT 1   [ RunTime:0.000114s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /wwwroot/admin.snake.com/Application/Common/Common/ext_parse.php 第 179 行.
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_SENSITIVE_OPEN_SENSITIVE' LIMIT 1   [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `tb_weibo_topic` [ RunTime:0.000395s ]
+SQL: SELECT * FROM `tb_weibo_topic` WHERE `id` IN ()  [ RunTime:0.000062s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_weibo_topic` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Weibo/Common/function.php 第 191 行.
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_HOT_WEIBO_COMMENT_NUM' LIMIT 1   [ RunTime:0.000126s ]
+SQL: select uid,score1 from `tb_member`,`tb_ucenter_member` where uid=id and uid=1 limit 1 [ RunTime:0.000164s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_USERCONFIG_LEVEL' LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `tb_ucenter_short` [ RunTime:0.000306s ]
+SQL: SELECT * FROM `tb_ucenter_short` WHERE `uid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: nickname /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 441 行.
+SQL: SHOW COLUMNS FROM `tb_rank_user` [ RunTime:0.000339s ]
+SQL: SELECT * FROM `tb_rank_user` WHERE `uid` = 1 AND `status` = 1  [ RunTime:0.000081s ]
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 492 行.
+SQL: SHOW COLUMNS FROM `tb_attest` [ RunTime:0.000441s ]
+SQL: SELECT * FROM `tb_attest` WHERE `uid` = 1 AND `status` = 1 LIMIT 1   [ RunTime:0.000055s ]
+NOTIC: [8] Undefined index: is_first /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 117 行.
+NOTIC: [8] Undefined variable: is_hot /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 119 行.
+NOTIC: [2] array_intersect(): Argument #2 is not an array /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 128 行.
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Weibo/Index/doDelWeibo' AND `status` = 1 LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM tb_auth_group_access a [ RunTime:0.000059s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM tb_auth_group_access a
+SQL: SELECT `rules` FROM tb_auth_group_access a INNER JOIN tb_auth_group g on a.group_id=g.id and g.end_time>1520077713  WHERE ( a.uid='0' and g.status='1' )  [ RunTime:0.000148s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `create_time` < '1517936181' AND `uid` = 1 LIMIT 1   [ RunTime:0.000067s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /wwwroot/admin.snake.com/Application/Common/Common/ext_parse.php 第 179 行.
+SQL: SELECT * FROM `tb_weibo_topic` WHERE `id` IN ()  [ RunTime:0.000057s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_weibo_topic` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Weibo/Common/function.php 第 191 行.
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000009s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.067425s ]
+SQL: SHOW COLUMNS FROM `tb_picture` [ RunTime:0.000366s ]
+SQL: SELECT * FROM `tb_picture` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT * FROM `tb_picture` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.000066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.053960s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006534s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.027709s ]
+NOTIC: [8] unserialize(): Error at offset 242 of 1200 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+NOTIC: [8] Undefined index: is_first /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 117 行.
+NOTIC: [8] Undefined variable: is_hot /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 119 行.
+NOTIC: [2] array_intersect(): Argument #2 is not an array /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 128 行.
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Weibo/Index/doDelWeibo' AND `status` = 1 LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.000055s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `create_time` < '1517935835' AND `uid` = 1 LIMIT 1   [ RunTime:0.000050s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /wwwroot/admin.snake.com/Application/Common/Common/ext_parse.php 第 179 行.
+SQL: SELECT * FROM `tb_weibo_topic` WHERE `id` IN ()  [ RunTime:0.000057s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_weibo_topic` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Weibo/Common/function.php 第 191 行.
+NOTIC: [8] unserialize(): Error at offset 242 of 1200 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+NOTIC: [8] Undefined variable: is_hot /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 119 行.
+NOTIC: [2] array_intersect(): Argument #2 is not an array /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 128 行.
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Weibo/Index/doDelWeibo' AND `status` = 1 LIMIT 1   [ RunTime:0.000062s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_COUNT2' LIMIT 1   [ RunTime:0.000130s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_ORDER_FIELD2' LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_ORDER_TYPE2' LIMIT 1   [ RunTime:0.000120s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_CACHE_TIME2' LIMIT 1   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 ORDER BY comment_count desc LIMIT 5   [ RunTime:0.000058s ]
+NOTIC: [8] unserialize(): Error at offset 3904 of 5805 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `create_time` < '1517936181' AND `uid` = 1 LIMIT 1   [ RunTime:0.000052s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /wwwroot/admin.snake.com/Application/Common/Common/ext_parse.php 第 179 行.
+SQL: SELECT * FROM `tb_weibo_topic` WHERE `id` IN ()  [ RunTime:0.000056s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_weibo_topic` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Weibo/Common/function.php 第 191 行.
+SQL: SELECT * FROM `tb_picture` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.066580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006287s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.040198s ]
+NOTIC: [8] unserialize(): Error at offset 242 of 1200 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+NOTIC: [8] Undefined index: is_first /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 117 行.
+NOTIC: [8] Undefined variable: is_hot /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 119 行.
+NOTIC: [2] array_intersect(): Argument #2 is not an array /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 128 行.
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Weibo/Index/doDelWeibo' AND `status` = 1 LIMIT 1   [ RunTime:0.000063s ]
+NOTIC: [8] unserialize(): Error at offset 3807 of 4823 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `create_time` < '1517935835' AND `uid` = 1 LIMIT 1   [ RunTime:0.000048s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /wwwroot/admin.snake.com/Application/Common/Common/ext_parse.php 第 179 行.
+SQL: SELECT * FROM `tb_weibo_topic` WHERE `id` IN ()  [ RunTime:0.000051s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_weibo_topic` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Weibo/Common/function.php 第 191 行.
+NOTIC: [8] unserialize(): Error at offset 242 of 1200 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+NOTIC: [8] Undefined variable: is_hot /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 119 行.
+NOTIC: [2] array_intersect(): Argument #2 is not an array /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 128 行.
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Weibo/Index/doDelWeibo' AND `status` = 1 LIMIT 1   [ RunTime:0.000071s ]
+NOTIC: [8] unserialize(): Error at offset 3821 of 4835 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `id` = 3 LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT * FROM `tb_weibo` WHERE `status` = 1 AND `create_time` < '1519704289' AND `uid` = 1 LIMIT 1   [ RunTime:0.000050s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /wwwroot/admin.snake.com/Application/Common/Common/ext_parse.php 第 179 行.
+SQL: SELECT * FROM `tb_weibo_topic` WHERE `id` IN ()  [ RunTime:0.000066s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tb_weibo_topic` WHERE `id` IN () 
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Weibo/Common/function.php 第 191 行.
+NOTIC: [8] unserialize(): Error at offset 242 of 1200 bytes /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 104 行.
+NOTIC: [8] Undefined index: is_first /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 117 行.
+NOTIC: [8] Undefined variable: is_hot /wwwroot/admin.snake.com/Application/Weibo/Model/WeiboModel.class.php 第 119 行.
+NOTIC: [2] array_intersect(): Argument #2 is not an array /wwwroot/admin.snake.com/Application/Common/Model/UserModel.class.php 第 128 行.
+SQL: SELECT * FROM `tb_auth_rule` WHERE `name` = 'Weibo/Index/doDelWeibo' AND `status` = 1 LIMIT 1   [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.077728s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_TITLE1' LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_HOME_SHOW_TITLE' LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000006s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.100143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.081921s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001981s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.052827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.054719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.084292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001951s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.055173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.057036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.086499s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002427s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.057473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.059827s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_WEIBO_WEIBO_SHOW_TITLE2' LIMIT 1   [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.089797s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002444s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.060639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.063008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.092536s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002355s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.063460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.065740s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.095235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002336s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.066187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.068452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002517s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.066187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.068610s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000005s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.117309s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_COUNT1' LIMIT 1   [ RunTime:0.000126s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_ORDER_FIELD1' LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_ORDER_TYPE1' LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_CACHE_TIME1' LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT `uid` FROM `tb_member` WHERE `status` = 1 ORDER BY score1 desc LIMIT 5   [ RunTime:0.000183s ]
+SQL: select uid,nickname from `tb_member`,`tb_ucenter_member` where uid=id and uid=100 limit 1 [ RunTime:0.000127s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000006s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.124300s ]
+SQL: SHOW COLUMNS FROM `tb_avatar` [ RunTime:0.000410s ]
+SQL: SELECT * FROM `tb_avatar` WHERE `uid` = 100 AND `status` = 1 AND `is_temp` = 0 LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tb_member` [ RunTime:0.000467s ]
+SQL: SELECT `show_role` FROM `tb_member` WHERE ( uid=100 )  [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `tb_role_config` [ RunTime:0.000308s ]
+SQL: SELECT `value` FROM `tb_role_config` WHERE `role_id` = 1 AND `category` = '' AND `name` = 'avatar' LIMIT 1   [ RunTime:0.000050s ]
+NOTIC: [2] unlink(./Runtime/Temp/f9bb942dcd630814d03862b865a86187.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+NOTIC: [2] unlink(./Runtime/Temp/01f0d1f51833a1738f8a55f0eacea6dd.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+SQL: SELECT * FROM `tb_avatar` WHERE `uid` = 100 AND `status` = 1 AND `is_temp` = 0 LIMIT 1   [ RunTime:0.000053s ]
+SQL: SELECT `show_role` FROM `tb_member` WHERE ( uid=100 )  [ RunTime:0.000045s ]
+SQL: SELECT `value` FROM `tb_role_config` WHERE `role_id` = 1 AND `category` = '' AND `name` = 'avatar' LIMIT 1   [ RunTime:0.000068s ]
+NOTIC: [2] unlink(./Runtime/Temp/f9bb942dcd630814d03862b865a86187.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+NOTIC: [2] unlink(./Runtime/Temp/01f0d1f51833a1738f8a55f0eacea6dd.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+SQL: SELECT * FROM `tb_avatar` WHERE `uid` = 100 AND `status` = 1 AND `is_temp` = 0 LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `show_role` FROM `tb_member` WHERE ( uid=100 )  [ RunTime:0.000042s ]
+SQL: SELECT `value` FROM `tb_role_config` WHERE `role_id` = 1 AND `category` = '' AND `name` = 'avatar' LIMIT 1   [ RunTime:0.000045s ]
+NOTIC: [2] unlink(./Runtime/Temp/f9bb942dcd630814d03862b865a86187.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+NOTIC: [2] unlink(./Runtime/Temp/01f0d1f51833a1738f8a55f0eacea6dd.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+SQL: SELECT * FROM `tb_avatar` WHERE `uid` = 100 AND `status` = 1 AND `is_temp` = 0 LIMIT 1   [ RunTime:0.000052s ]
+SQL: SELECT `show_role` FROM `tb_member` WHERE ( uid=100 )  [ RunTime:0.000043s ]
+SQL: SELECT `value` FROM `tb_role_config` WHERE `role_id` = 1 AND `category` = '' AND `name` = 'avatar' LIMIT 1   [ RunTime:0.000044s ]
+NOTIC: [2] unlink(./Runtime/Temp/f9bb942dcd630814d03862b865a86187.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+NOTIC: [2] unlink(./Runtime/Temp/01f0d1f51833a1738f8a55f0eacea6dd.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+SQL: SELECT * FROM `tb_avatar` WHERE `uid` = 100 AND `status` = 1 AND `is_temp` = 0 LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT `show_role` FROM `tb_member` WHERE ( uid=100 )  [ RunTime:0.000046s ]
+SQL: SELECT `value` FROM `tb_role_config` WHERE `role_id` = 1 AND `category` = '' AND `name` = 'avatar' LIMIT 1   [ RunTime:0.000045s ]
+NOTIC: [2] unlink(./Runtime/Temp/f9bb942dcd630814d03862b865a86187.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+NOTIC: [2] unlink(./Runtime/Temp/01f0d1f51833a1738f8a55f0eacea6dd.php): No such file or directory /wwwroot/admin.snake.com/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 158 行.
+SQL: SELECT * FROM `tb_ucenter_short` WHERE `uid` = 100 AND `status` = 1 LIMIT 1   [ RunTime:0.000048s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_COUNT2' LIMIT 1   [ RunTime:0.000118s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_ORDER_FIELD2' LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_ORDER_TYPE2' LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_CACHE_TIME2' LIMIT 1   [ RunTime:0.000107s ]
+SQL: SELECT `uid` FROM `tb_member` WHERE `status` = 1 ORDER BY reg_time desc LIMIT 5   [ RunTime:0.000131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.114387s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_TITLE1' LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_PEOPLE_USER_SHOW_TITLE2' LIMIT 1   [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004296s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.083943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.088150s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000005s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.136718s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_NEWS_NEWS_SHOW_COUNT' LIMIT 1   [ RunTime:0.000119s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_NEWS_NEWS_SHOW_TYPE' LIMIT 1   [ RunTime:0.000113s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_NEWS_NEWS_SHOW_ORDER_FIELD' LIMIT 1   [ RunTime:0.000117s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_NEWS_NEWS_SHOW_ORDER_TYPE' LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_NEWS_NEWS_SHOW_CACHE_TIME' LIMIT 1   [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `tb_news` [ RunTime:0.000397s ]
+SQL: SELECT * FROM `tb_news` WHERE `status` = 1 AND `dead_line` > 1520077713 ORDER BY view desc LIMIT 4   [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.124248s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_NEWS_NEWS_SHOW_TITLE' LIMIT 1   [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004119s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.093771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.097801s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000005s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.146399s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_QUESTION_QUESTION_SHOW_COUNT' LIMIT 1   [ RunTime:0.000125s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_QUESTION_QUESTION_SHOW_TYPE' LIMIT 1   [ RunTime:0.000112s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_QUESTION_QUESTION_SHOW_ORDER_FIELD' LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_QUESTION_QUESTION_SHOW_ORDER_TYPE' LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_QUESTION_QUESTION_SHOW_CACHE_TIME' LIMIT 1   [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `tb_question` [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `tb_question_answer` [ RunTime:0.000344s ]
+SQL: SELECT * FROM `tb_question` WHERE `status` = 1 ORDER BY answer_num desc LIMIT 4   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined offset: 0 /wwwroot/admin.snake.com/Application/Common/Common/thumb.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 /wwwroot/admin.snake.com/Application/Common/Common/thumb.php 第 180 行.
+SQL: SELECT * FROM `tb_question_answer` WHERE `question_id` = 1 AND `status` = 1 ORDER BY support desc LIMIT 1   [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `tb_question_support` [ RunTime:0.000268s ]
+SQL: SELECT * FROM `tb_question_support` WHERE `uid` = 0 AND `tablename` = 'QuestionAnswer' AND `row` = 1 LIMIT 1   [ RunTime:0.000055s ]
+SQL: SELECT `uid` FROM `tb_question_support` WHERE `tablename` = 'QuestionAnswer' AND `row` = 1 AND `type` = 1 ORDER BY id asc LIMIT 10   [ RunTime:0.000050s ]
+NOTIC: [2] Invalid argument supplied for foreach() /wwwroot/admin.snake.com/Application/Question/Model/QuestionSupportModel.class.php 第 43 行.
+NOTIC: [8] Undefined offset: 0 /wwwroot/admin.snake.com/Application/Common/Common/thumb.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 /wwwroot/admin.snake.com/Application/Common/Common/thumb.php 第 180 行.
+SQL: SELECT * FROM `tb_question_answer` WHERE `question_id` = 2 AND `status` = 1 ORDER BY support desc LIMIT 1   [ RunTime:0.000062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.135583s ]
+SQL: SELECT `value` FROM `tb_config` WHERE `name` = '_QUESTION_QUESTION_SHOW_TITLE' LIMIT 1   [ RunTime:0.000128s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.138131s ]
+NOTIC: [8] Undefined index: support /wwwroot/admin.snake.com/Runtime/Cache/Home/4cd72c3632fcc792751a1326a60da516.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002272s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.109042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.111222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.140488s ]
+NOTIC: [8] Undefined index: support /wwwroot/admin.snake.com/Runtime/Cache/Home/4cd72c3632fcc792751a1326a60da516.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002110s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.111496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.113512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002200s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.111496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000005s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.113595s ]
+NOTIC: [8] Undefined variable: site /wwwroot/admin.snake.com/Runtime/Cache/Home/769e70f2e46f34ceb60619bbda5e4691.php 第 490 行.
+INFO: [ pageFooter ] --START--
+INFO: Run Addons\SuperLinks\SuperLinksAddon [ RunTime:0.000341s ]
+INFO: [ pageFooter ] --END-- [ RunTime:0.000368s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000005s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.162606s ]
+SQL: SHOW COLUMNS FROM `tb_announce` [ RunTime:0.000327s ]
+SQL: SELECT * FROM `tb_announce` WHERE `status` = 1 AND `is_force` = 1 AND `end_time` > 1520077713 ORDER BY sort desc,create_time desc  [ RunTime:0.000155s ]
+SQL: SELECT `type`,`name`,`value` FROM `tb_config` WHERE `status` = 1  [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: token /wwwroot/admin.snake.com/Application/Common/Model/ModuleModel.class.php 第 242 行.
+NOTIC: [8] Undefined variable: res /wwwroot/admin.snake.com/Application/Common/Common/role.php 第 147 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitModuleInfoBehavior [ RunTime:0.000007s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.164667s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005847s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.111496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000006s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.117254s ]
+
